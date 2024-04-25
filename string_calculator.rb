@@ -23,12 +23,12 @@ class StringCalculator
 end
 
 begin
-	puts StringCalculator::add("")
-	puts StringCalculator::add("1")
-	puts StringCalculator::add("1\n2,3")
-	puts StringCalculator::add("10\n20\n30")
-	puts StringCalculator::add("//;\n4;6")
-	puts StringCalculator::add("//;\n-4;6")
+  puts StringCalculator::add("")
+  puts StringCalculator::add("1")
+  puts StringCalculator::add("1\n2,3")
+  puts StringCalculator::add("10\n20\n30")
+  puts StringCalculator::add("//;\n4;6")
+  puts StringCalculator::add("//;\n-4;6")
 rescue => e
-	puts "Exception: #{e.message}"
+  puts "Exception: #{e.message}"
 end
